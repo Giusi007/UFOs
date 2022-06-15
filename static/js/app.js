@@ -27,7 +27,7 @@ function buildTable(data) {
 function handleClick() {
     // Get the datetime value from the filter
     let date = d3.select("#datetime").property("value");
-    let filteredDate = tableData;
+    let filteredData = tableData;
 
     // Check to see if a date w2as entered and filter the
     // data using that date
